@@ -1,0 +1,7 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+  p Current page count #{pageCount}
+  p Database info: #{dbInfo.database_name} | #{dbInfo.url} | #{dbInfo.type}
